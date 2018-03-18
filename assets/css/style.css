@@ -36,7 +36,7 @@ h1 {
 }
 
 .footer {
-    margin: 100px 0px 0px 0px;
+    margin: 75px 0px 0px 0px;
     text-align: center;
     background-color: #666666;
     padding: 15px;
@@ -68,3 +68,28 @@ h2 {
     padding-bottom: 30px;  
     font-size: 24pt;
 }
+
+.form-control {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 10pt;
+    width: 900px;
+    
+}
+
+h3 {
+    margin: 0 0 0 0;
+    padding-bottom: 10px;
+    color: #666666;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: #ffffff;
+}
+
+
+
+
+
