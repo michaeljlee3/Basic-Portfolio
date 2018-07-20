@@ -1,0 +1,48 @@
+#nav-title {
+    font-family: 'DIN Condensed';
+    letter-spacing: 4pt;
+    position: relative;
+}
+
+a:hover {
+    color: #42a5f5;
+}
+#nav-mobile {
+    margin-left: 1%;
+}
+
+#logopic {
+    width: 10%;
+}
+
+.nav-wrapper {
+    background-color: #bdbdbd;
+    border-bottom: solid 5pt #42a5f5;
+}
+
+#profile-pic {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.my-photos {
+    width: 100%;
+}
+
+.container {
+    margin-top: 2%;
+    width: 80%;
+}
+
+h2 {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+}
+
+#about-me {
+    text-align: left;
+    border-bottom: solid 2px #bdbdbd 
+}
