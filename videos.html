@@ -3,33 +3,48 @@
     <head>
         <meta charset="UTF-8">
         <title>Mike</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
         <link rel="stylesheet" href="assets/style.css" media="screen" title="no title">
+        <link rel="icon" href="assets/Photos/blueLogo.png">
     </head>
 
     <body>
-        <nav>
-            <div class="nav-wrapper">
-                <a href="Index.html" class="brand-logo center" id="nav-title">MICHAEL LEE</a>
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="photos.html">Photos</a></li>
-                <li><a href="videos.html">Videos</a></li>
-                <li><a href="coding.html">Coding</a></li>
-                </ul>
+        
+        <header>
+           <ul class="sidenav sidenav-fixed z-depth-0">
+                <li id="top-corner-logo">
+                    <a href="Index.html" id="logoid">
+                        <img id="logopic" src="assets/Photos/bluelogo.png">
+                    </a>
+                </li>
+                <li><a class="nav-link active" href="about.html">About</a></li>
+                <li><a class="nav-link" href="photos.html">Photos</a></li>
+                <li><a class="nav-link" href="videos.html">Videos</a></li>
+                <li><a class="nav-link" href="coding.html">Code</a></li>
+            </ul>
+        </header>
+        
+        <div class="main-container">
+            <div class="row center">
+                <div class="col s12 m10">
+                    <h1 class="header">Videos</h1>
+                </div>
             </div>
-        </nav>
 
-        <div class="container">
-            <h2>Videos</h2>
-            <div class="row">
-                <div class="col s6"><iframe src="https://player.vimeo.com/video/277336356" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
-                <div class="col s6"><iframe src="https://player.vimeo.com/video/274255298" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+            <div class="row center">
+                    <div class="col s4"><iframe src="https://player.vimeo.com/video/277336356" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+                    <div class="col s4"><iframe src="https://player.vimeo.com/video/274255298" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+            </div>
+
+            <div class="row center">
+                    <div class="col s4"><iframe src="https://player.vimeo.com/video/270909598" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+                    <div class="col s4"><iframe src="https://player.vimeo.com/video/255191789" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
             </div>
         </div>
+       
     </body>
     
 

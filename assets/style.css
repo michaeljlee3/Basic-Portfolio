@@ -5,8 +5,9 @@
 }
 
 a:hover {
-    color: #42a5f5;
+    color: #ffffff;
 }
+
 #nav-mobile {
     margin-left: 1%;
 }
@@ -89,9 +90,33 @@ img {
 }
 
 .row {
-    padding: 0 5%;
+    padding: 3% 3%;
+    margin-bottom: 0; 
+    
+}
+.main-row, .locations{
+    border-bottom: solid 2px #dbdbdb;
+}
+#about-button {
+    margin-top: 20px;
 }
 
-.main-container>:nth-child(2) {
-    border-bottom: solid 2px #dbdbdb;
+h1 {
+    margin: 0 0;
+}
+
+h5 {
+    margin: 0 0 10px 0;
+}
+
+#index-photo {
+    width: 100%;
+}
+
+i {
+    float: left;
+}
+
+.social-icons {
+    width: 20%;
 }

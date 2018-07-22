@@ -3,38 +3,144 @@
     <head>
         <meta charset="UTF-8">
         <title>Mike</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="assets/style.css" media="screen" title="no title">
         <link rel="icon" href="assets/Photos/blueLogo.png">
     </head>
 
     <body>
-        <nav class="z-depth-0">
-            <div class="nav-wrapper">
-                <a href="Index.html" class="brand-logo center"><img id="logopic"src="assets/Photos/logo.png"></a>
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li id="mike"><a href="Index.html" id="nav-title">MICHAEL LEE</a></li>
-                    <li><a href="photos.html">Photos</a></li>
-                    <li><a href="videos.html">Videos</a></li>
-                    <li><a href="coding.html">Coding</a></li>
-                </ul>
-            </div>
-        </nav>
+        
+        <header>
+           <ul class="sidenav sidenav-fixed z-depth-0">
+                <li id="top-corner-logo">
+                    <a href="Index.html" id="logoid">
+                        <img id="logopic" src="assets/Photos/bluelogo.png">
+                    </a>
+                </li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="photos.html">Photos</a></li>
+                <li><a class="nav-link" href="videos.html">Videos</a></li>
+                <li><a class="nav-link" href="coding.html">Code</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+        
+        <div class="main-container">
 
-        <div class="container">
-            <div class="row" id="about-me-row">
-                <div class="col s4">
-                    <img id="profile-pic" src="assets/Photos/DSC09372.jpg" alt="Profile Picture">
+            <div class="row center main-row">
+                <div class="col s12 m10">
+                    <h1 class="header">Michael Lee</h1>
+                    <h4>Welcome to my page!<br>You can find all of my work here</h4>
+                    <a href="about.html" id="about-button" class="btn-large blue lighten-1 waves-effect waves-light ">About Me</a>
                 </div>
-                <div class="col s8">
-                    <h2 id="about-me">About Me</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam nobis quod odit eum libero facilis eveniet optio cum incidunt dolorum ipsum, tempora repellat sunt eligendi iste fuga recusandae nesciunt labore sapiente commodi neque? Reprehenderit esse rerum consequuntur consectetur nisi beatae natus, nesciunt deleniti hic? Ipsum distinctio nulla sit voluptates ipsam, aliquid dolorem illo. Fugit a dignissimos mollitia eligendi, commodi voluptates eum nisi nobis delectus labore explicabo dolorem, ea maiores repellat id ipsa officiis neque asperiores!</p>
-                </div>  
-            </div>      
-        </div>
+            </div>
+            
+            <div class="row center main-row">
+                <div class="col s4 m4">
+                    <a href="photos.html"><img id="camera-logo" src="assets/Photos/photo.jpg"></a>
+                    <h5 class="row-small-title">Photos</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, magni expedita! Hic architecto iste voluptates, alias fugiat ut accusamus error unde aperiam ipsa quas, magnam consequuntur sequi voluptatibus aut reiciendis sunt praesentium numquam qui vitae, consequatur iusto nostrum eligendi quasi? Facilis quaerat commodi animi, pariatur porro hic libero possimus qui.</p>
+                </div>
+                <div class="col s4 m4">
+                    <a href="coding.html"><img id="code-logo" src="assets/Photos/code.jpg"></a>
+                    <h5 class="row-small-title">Code</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero ad harum molestiae reprehenderit minus maxime ratione, optio labore itaque quam officiis perferendis cupiditate tempore quos esse quidem fugit deserunt illum.</p>
+                </div>
+                <div class="col s4 m4">
+                    <a href="videos.html"><img id="film-logo" src="assets/Photos/film.jpg"></a>
+                    <h5 class="row-small-title">Videos</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus voluptatem provident aliquam atque, ipsam dolorem quam, ipsum vel cum porro, optio praesentium quod! Iste, explicabo similique debitis, odit et nisi amet inventore soluta rem eum optio! Fugit, nemo? Ut rem natus dolore veniam fugiat. Aspernatur.</p>
+                </div>
+            </div>
 
+            <div class="row center main-row">
+                <div class="row center">
+                    <h1 class="header">Places</h1>
+                </div>
+                
+                <div class="row center">
+                    <div class="col s9">
+                        <img id="index-photo" src="assets/Photos/IMG_1741.JPG">
+                    </div>
+                    <div class="col s3 left" id="locations-div">
+                        <div class="row center">
+                            <h5>Latest</h5>
+                        </div>
+                        <div class="row locations">
+                            <i class="small material-icons">location_on</i>Surfside, South Carolina
+                        </div> 
+                        <div class="row locations">
+                            <i class="small material-icons">location_on</i>Washington, D.C.
+                        </div>
+                        <div class="row locations">
+                            <i class="small material-icons">location_on</i>Asheville, North Carolina
+                        </div>
+                        <div class="row locations">
+                            <i class="small material-icons">location_on</i>Charleston, South Carolina
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row center main-row">
+                <div class="row">
+                    <div class="col s12 m10">
+                        <h1 class="header">Connect</h1>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col s6 m6">
+                        <h5 class="row-small-title">Contact</h5>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="icon_prefix" type="text" class="validate">
+                                        <label for="icon_prefix">Full Name</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">phone</i>
+                                        <input id="icon_telephone" type="tel" class="validate">
+                                        <label for="icon_telephone">Telephone</label>
+                                    </div>
+                                </div> 
+                                <div class="row">   
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">email</i>
+                                        <input id="icon_prefix" type="text" class="validate">
+                                        <label for="icon_prefix">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                            <i class="material-icons prefix">message</i>
+                                        <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                                        <label for="textarea2">Message</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m6">
+                        <h5 class="row-small-title">Follow</h5>
+                        <img class="social-icons" src="assets/Photos/Twitter.jpg">
+                        <img class="social-icons" src="assets/Photos/GitHub.jpg">
+                        <img class="social-icons" src="assets/Photos/linkedin.jpg">
+                    </div>
+
+                </div>
+            </div>
+                
+        </div>
+       
     </body>
     
 
