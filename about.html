@@ -7,6 +7,7 @@
         <script src="https://code.jquery.com/jquery.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="assets/style.css" media="screen" title="no title">
         <link rel="icon" href="assets/Photos/blueLogo.png">
     </head>
@@ -20,45 +21,85 @@
                         <img id="logopic" src="assets/Photos/bluelogo.png">
                     </a>
                 </li>
-                <li><a class="nav-link active" href="about.html">About</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
                 <li><a class="nav-link" href="photos.html">Photos</a></li>
                 <li><a class="nav-link" href="videos.html">Videos</a></li>
                 <li><a class="nav-link" href="coding.html">Code</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </header>
         
         <div class="main-container">
-            <div class="row center">
-                <div class="col s12 m10">
-                    <h1 class="header">Michael Lee</h1>
-                </div>
-            </div>
 
-            <div class="row center">
+            <div class="row main-row">
                 <div class="col s12 m10">
-                    <h4>Welcome to my page!<br>You can find all of my work here</h4>
-                    <a href="about.html" id="about-button" class="btn-large blue lighten-1 waves-effect waves-light ">About Me</a>
+                    <h1 class="header">About Me</h1>
+                    <h4>A short bio of who I am and what I like to do</h4>
                 </div>
-            </div>
-
-            <div class="row center">
-                
             </div>
             
-            <div class="row center">
+            <div class="row center main-row">
                 <div class="col s4 m4">
-                    <img id="camera" src="assets/Photos/photo.jpg">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, magni expedita! Hic architecto iste voluptates, alias fugiat ut accusamus error unde aperiam ipsa quas, magnam consequuntur sequi voluptatibus aut reiciendis sunt praesentium numquam qui vitae, consequatur iusto nostrum eligendi quasi? Facilis quaerat commodi animi, pariatur porro hic libero possimus qui.</p>
+                    <img id="about-me-pic" src="assets/Photos/DSC09372.jpg">
                 </div>
-                <div class="col s4 m4">
-                    <img id="camera" src="assets/Photos/code.jpg">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero ad harum molestiae reprehenderit minus maxime ratione, optio labore itaque quam officiis perferendis cupiditate tempore quos esse quidem fugit deserunt illum.</p>
+                <div class="col s8 m8" id="about-me-p">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam delectus id iure labore, a molestiae tempore aliquam eaque eum, earum cupiditate eius fuga eos saepe inventore placeat nostrum dolor corporis incidunt provident optio. Provident nihil id molestias tempora quam commodi voluptatem, dicta odit aliquam officiis odio magni, explicabo deleniti est dolorem dolore reiciendis! Explicabo odit voluptate praesentium, veritatis velit sequi inventore sit? Minus explicabo maxime porro sit voluptas cupiditate fugiat omnis minima, nam aut quaerat perspiciatis voluptatibus veritatis neque assumenda quas, est at odit quam tempora. Dolor, voluptatum maxime nemo quibusdam delectus consectetur quae dolore deleniti, nulla numquam, temporibus minima.</p>
                 </div>
-                <div class="col s4 m4">
-                    <img id="camera" src="assets/Photos/film.jpg">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus voluptatem provident aliquam atque, ipsam dolorem quam, ipsum vel cum porro, optio praesentium quod! Iste, explicabo similique debitis, odit et nisi amet inventore soluta rem eum optio! Fugit, nemo? Ut rem natus dolore veniam fugiat. Aspernatur.</p>
+
+            </div>
+
+            <div class="row center main-row">
+                <div class="row">
+                    <div class="col s12 m10">
+                        <h1 class="header">Connect</h1>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col s6 m6">
+                        <h5 class="row-small-title">Contact</h5>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row contact-row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="icon_prefix" type="text" class="validate">
+                                        <label for="icon_prefix">Full Name</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">phone</i>
+                                        <input id="icon_telephone" type="tel" class="validate">
+                                        <label for="icon_telephone">Telephone</label>
+                                    </div>
+                                </div> 
+                                <div class="row contact-row">   
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">email</i>
+                                        <input id="icon_prefix" type="text" class="validate">
+                                        <label for="icon_prefix">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row contact-row">
+                                    <div class="input-field col s12">
+                                            <i class="material-icons prefix">message</i>
+                                        <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                                        <label for="textarea2">Message</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col s6 m6">
+                        <h5 class="row-small-title">Follow</h5>
+                        <a href="https://twitter.com/mike_lee93"><img class="social-icons" src="assets/Photos/Twitter.jpg"></a>
+                        <a href="https://github.com/michaeljlee3"><img class="social-icons" src="assets/Photos/GitHub.jpg"></a>
+                        <a href="https://www.linkedin.com/in/michael-lee-3a8171106/"><img class="social-icons" src="assets/Photos/linkedin.jpg"></a>
+                    </div>
+
                 </div>
             </div>
+                
         </div>
        
     </body>

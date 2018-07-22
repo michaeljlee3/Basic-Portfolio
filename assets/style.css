@@ -89,7 +89,7 @@ img {
     width: 60%;
 }
 
-.row {
+.main-row {
     padding: 3% 3%;
     margin-bottom: 0; 
     
@@ -106,7 +106,7 @@ h1 {
 }
 
 h5 {
-    margin: 0 0 10px 0;
+    margin: 0 auto 10px auto;
 }
 
 #index-photo {
@@ -119,4 +119,24 @@ i {
 
 .social-icons {
     width: 20%;
+}
+
+.contact-row {
+    margin-bottom: 0;
+}
+
+#about-me-pic {
+    width: 70%;
+}
+
+#about-me-p {
+    text-align: left;
+}
+
+.video-row {
+    margin-bottom: 0;
+}
+
+#last-video-row {
+    border-bottom: solid 2px #dbdbdb;
 }
